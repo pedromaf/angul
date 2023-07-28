@@ -1,0 +1,4 @@
+<button (click)="getRandomPhoto()">Get Image</button>
+<div *ngIf="photo != null">
+    <img [src]="photo.urls.regular">
+</div>
